@@ -1,0 +1,14 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: "stock-service"
+  datasource:
+    url: jdbc:mysql://localhost:3306/serigrafia
+    username: root
+    password: rootroot
+  devtools:
+    livereload:
+      enabled: true
+jwt:
+  secret: "MzE0ODRhMDc0ZTg5NDAzNTgxMWQyN2QwOWQ4ZWUwZWRkMmE1MGU5NmE4ODg0M2E5OTllZDUyMmY0ZDFhMTYzNQ=="
